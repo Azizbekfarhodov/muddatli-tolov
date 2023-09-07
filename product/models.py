@@ -19,4 +19,7 @@ class Product(models.Model):
 
      # get divade product price add ustama and oldindan_tolov
      def get_divade(self):
-          return ((self.narx - self.oldindan_tolov) + (self.ustama * self.muddat)) / self.muddat 
+          for(int i =0;i<self.muddat;i++ )
+              sana=sana+1;
+              return  : ((self.narx - self.oldindan_tolov) + (self.ustama * self.muddat)) / self.muddat 
+          
